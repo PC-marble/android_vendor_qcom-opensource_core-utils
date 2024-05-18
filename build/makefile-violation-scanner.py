@@ -25,7 +25,7 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Changes from Qualcomm Innovation Center are provided under the following license:
+# Changes from Qualcomm Innovation Center, Inc. are provided under the following license:
 # Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 #
@@ -60,7 +60,7 @@ QSSI_VARIANT = "qssi_64"
 # Create a Vendor-QSSI mapping between targets
 # Add the qssi variant as a target to the list. This is needed for running this scanner on QSSI builds only
 vendor_qssi_mapping_dict = {
-    "qssi_64" : ["qssi_64","pineapple","sun","blair","pitti"],
+    "qssi_64" : ["qssi_64","pineapple","sun","blair","pitti","anorak61"],
     "qssi_xrM" : ["qssi_xrM","niobe"],
     "qssi_sdg" : ["qssi_sdg","capri"],
     "qssi_lite" : ["qssi_lite","neo"],

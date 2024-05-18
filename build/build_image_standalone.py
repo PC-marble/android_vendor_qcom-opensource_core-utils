@@ -26,8 +26,11 @@
 # WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
+#
+# Changes from Qualcomm Innovation Center, Inc. are provided under the following license:
+# Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+#
 import argparse
 import fnmatch
 import logging
@@ -322,7 +325,7 @@ def main():
     "qssi"      : ["holi", "taro", "kalama", "lahaina", "sdm710", "sdm845", "msmnile", "sm6150", "kona", "atoll", "trinket", "lito", "bengal", "parrot", "bengal_515", "crow", "anorak"],
     "qssi_32"   : ["bengal_32"],
     "qssi_32go" : ["bengal_32go", "msm8937_lily", "pitti_32go"],
-    "qssi_64"   : ["kalama64", "pineapple", "blair", "sun", "pitti", "volcano"],
+    "qssi_64"   : ["kalama64", "pineapple", "blair", "sun", "pitti", "volcano", "anorak61"],
     "qssi_xrM"  : ["niobe"],
     "qssi_sdg"  : ["capri"],
     "qssi_lite"  : ["neo"],

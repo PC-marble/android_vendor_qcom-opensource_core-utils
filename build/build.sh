@@ -27,7 +27,7 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Changes from Qualcomm Innovation Center are provided under the following license:
+# Changes from Qualcomm Innovation Center, Inc. are provided under the following license:
 # Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 #
@@ -242,7 +242,7 @@ ENABLE_VIRTUAL_AB=false
 
 # use these lists to pair target lunch options with their corresponding qssi type.
 TARGET_PRODUCT_MAPPING_QSSI=("holi" "taro" "kalama" "lahaina" "sdm710" "sdm845" "msmnile" "sm6150" "kona" "atoll" "trinket" "lito" "bengal" "qssi" "parrot" "bengal_515" "crow" "anorak")
-TARGET_PRODUCT_MAPPING_QSSI_64=("kalama64" "pineapple" "blair" "sun" "qssi_64" "pitti" "volcano")
+TARGET_PRODUCT_MAPPING_QSSI_64=("kalama64" "pineapple" "blair" "sun" "qssi_64" "pitti" "volcano" "anorak61")
 TARGET_PRODUCT_MAPPING_QSSI_32=("bengal_32" "qssi_32")
 TARGET_PRODUCT_MAPPING_QSSI_32GO=("bengal_32go" "qssi_32go" "msm8937_lily" "pitti_32go")
 TARGET_PRODUCT_MAPPING_QSSI_XRM=("qssi_xrM" "niobe")
@@ -280,9 +280,9 @@ DIST_DIR="out/dist"
 MERGED_TARGET_FILES="$DIST_DIR/merged-${TARGET_MATCHING_QSSI}_${TARGET_PRODUCT}-target_files.zip"
 LEGACY_TARGET_FILES="$DIST_DIR/${TARGET_PRODUCT}-target_files-*.zip"
 MERGED_OTA_ZIP="$DIST_DIR/merged-${TARGET_MATCHING_QSSI}_${TARGET_PRODUCT}-ota.zip"
-DIST_ENABLED_TARGET_LIST=("holi" "taro" "kalama" "parrot" "kalama64" "pineapple" "blair" "sun" "lahaina" "kona" "sdm710" "sdm845" "msmnile" "sm6150" "trinket" "lito" "bengal" "atoll" "qssi" "qssi_64" "qssi_xrM" "qssi_sdg" "qssi_lite"  "qssi_32" "qssi_32go" "bengal_32" "bengal_32go" "sdm660_64" "msm8937_lily" "bengal_515" "monaco" "crow" "niobe" "anorak" "pitti" "pitti_32go" "volcano" "neo")
-VIRTUAL_AB_ENABLED_TARGET_LIST=("kona" "lito" "taro" "kalama" "parrot" "kalama64" "pineapple" "blair" "sun" "lahaina" "bengal_515" "crow" "niobe" "anorak" "pitti" "monaco" "volcano")
-DYNAMIC_PARTITION_ENABLED_TARGET_LIST=("holi" "taro" "kalama" "parrot" "kalama64" "pineapple" "blair" "sun" "lahaina" "kona" "msmnile" "sdm710" "lito" "trinket" "atoll" "qssi" "qssi_64" "qssi_xrM" "qssi_32" "qssi_lite" "qssi_32go" "qssi_sdg" "bengal" "bengal_32" "bengal_32go" "sm6150" "sdm660_64" "msm8937_lily" "bengal_515" "monaco" "crow" "niobe" "anorak" "pitti" "pitti_32go" "volcano" "neo")
+DIST_ENABLED_TARGET_LIST=("holi" "taro" "kalama" "parrot" "kalama64" "pineapple" "blair" "sun" "lahaina" "kona" "sdm710" "sdm845" "msmnile" "sm6150" "trinket" "lito" "bengal" "atoll" "qssi" "qssi_64" "qssi_xrM" "qssi_sdg" "qssi_lite" "qssi_32" "qssi_32go" "bengal_32" "bengal_32go" "sdm660_64" "msm8937_lily" "bengal_515" "monaco" "crow" "niobe" "anorak" "pitti" "pitti_32go" "volcano" "neo" "anorak61")
+VIRTUAL_AB_ENABLED_TARGET_LIST=("kona" "lito" "taro" "kalama" "parrot" "kalama64" "pineapple" "blair" "sun" "lahaina" "bengal_515" "crow" "niobe" "anorak" "pitti" "monaco" "volcano" "anorak61")
+DYNAMIC_PARTITION_ENABLED_TARGET_LIST=("holi" "taro" "kalama" "parrot" "kalama64" "pineapple" "blair" "sun" "lahaina" "kona" "msmnile" "sdm710" "lito" "trinket" "atoll" "qssi" "qssi_64" "qssi_xrM" "qssi_32" "qssi_lite" "qssi_32go" "qssi_sdg" "bengal" "bengal_32" "bengal_32go" "sm6150" "sdm660_64" "msm8937_lily" "bengal_515" "monaco" "crow" "niobe" "anorak" "pitti" "pitti_32go" "volcano" "neo" "anorak61")
 
 DYNAMIC_PARTITIONS_IMAGES_PATH=$OUT
 DP_IMAGES_OVERRIDE=false
